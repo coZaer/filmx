@@ -1,17 +1,12 @@
-package com.example.filmx.dao.response;
+package com.example.filmx.dto.request;
 
-import jakarta.persistence.Column;
 import lombok.AccessLevel;
-import lombok.Builder;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Data
-@Builder
-public class FilmResponse {
-    Long id;
-
+public class FilmRequest {
     String title;
 
     String genre;
@@ -21,5 +16,4 @@ public class FilmResponse {
     int releaseYear;
 
     String description;
-
 }

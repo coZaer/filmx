@@ -1,8 +1,8 @@
 package com.example.filmx.mapper;
 
-import com.example.filmx.dao.request.FilmRequest;
-import com.example.filmx.dao.response.FilmResponse;
-import com.example.filmx.entity.FilmEntity;
+import com.example.filmx.dto.request.FilmRequest;
+import com.example.filmx.dto.response.FilmResponse;
+import com.example.filmx.dao.entity.FilmEntity;
 
 public enum FilmMapper {
     FILM_MAPPER;

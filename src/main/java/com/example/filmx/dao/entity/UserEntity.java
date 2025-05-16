@@ -1,4 +1,4 @@
-package com.example.filmx.entity;
+package com.example.filmx.dao.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -26,6 +26,7 @@ public class UserEntity {
     String email;
 
     String password;
+
 
     List<Role> roles = new ArrayList<>();
 }

@@ -1,18 +1,19 @@
-package com.example.filmx.dao.request;
+package com.example.filmx.dto.response;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.ManyToMany;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
 import javax.management.relation.Role;
-import java.util.ArrayList;
 import java.util.List;
+
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Data
-public class UserRequest {
+@Builder
+public class UserResponse {
+
+    Long id;
 
     String username;
 
@@ -20,5 +21,5 @@ public class UserRequest {
 
     String password;
 
-    List<Role> roles ;
+    List<Role> roles;
 }

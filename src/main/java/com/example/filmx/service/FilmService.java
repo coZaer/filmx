@@ -1,7 +1,7 @@
 package com.example.filmx.service;
 
-import com.example.filmx.dao.request.FilmRequest;
-import com.example.filmx.dao.response.FilmResponse;
+import com.example.filmx.dto.request.FilmRequest;
+import com.example.filmx.dto.response.FilmResponse;
 
 import java.util.List;
 

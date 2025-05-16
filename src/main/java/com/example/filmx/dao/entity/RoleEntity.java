@@ -1,4 +1,4 @@
-package com.example.filmx.entity;
+package com.example.filmx.dao.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

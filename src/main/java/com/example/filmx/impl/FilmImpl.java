@@ -1,14 +1,13 @@
 package com.example.filmx.impl;
 
-import com.example.filmx.dao.request.FilmRequest;
-import com.example.filmx.dao.response.FilmResponse;
-import com.example.filmx.entity.FilmEntity;
+import com.example.filmx.dto.request.FilmRequest;
+import com.example.filmx.dto.response.FilmResponse;
+import com.example.filmx.dao.entity.FilmEntity;
 import com.example.filmx.exception.NotFoundException;
 import com.example.filmx.mapper.FilmMapper;
-import com.example.filmx.repository.FilmRepository;
+import com.example.filmx.dao.repository.FilmRepository;
 import com.example.filmx.service.FilmService;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.bytecode.enhance.spi.interceptor.AbstractLazyLoadInterceptor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.example.filmx.repository;
+package com.example.filmx.dao.repository;
 
-import com.example.filmx.entity.FilmEntity;
+import com.example.filmx.dao.entity.FilmEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface FilmRepository extends JpaRepository<FilmEntity,Long> {

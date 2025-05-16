@@ -1,13 +1,11 @@
 package com.example.filmx.impl;
 
-import com.example.filmx.dao.request.FilmRequest;
-import com.example.filmx.dao.request.UserRequest;
-import com.example.filmx.dao.response.UserResponse;
-import com.example.filmx.entity.FilmEntity;
-import com.example.filmx.entity.UserEntity;
+import com.example.filmx.dto.request.UserRequest;
+import com.example.filmx.dto.response.UserResponse;
+import com.example.filmx.dao.entity.UserEntity;
 import com.example.filmx.exception.NotFoundException;
 import com.example.filmx.mapper.UserMapper;
-import com.example.filmx.repository.UserRepository;
+import com.example.filmx.dao.repository.UserRepository;
 import com.example.filmx.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

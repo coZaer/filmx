@@ -1,14 +1,11 @@
 package com.example.filmx.controller;
 
-import com.example.filmx.dao.request.UserRequest;
-import com.example.filmx.dao.response.FilmResponse;
-import com.example.filmx.dao.response.UserResponse;
+import com.example.filmx.dto.request.UserRequest;
+import com.example.filmx.dto.response.UserResponse;
 import com.example.filmx.service.FilmService;
 import com.example.filmx.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.service.annotation.GetExchange;
 
 import java.util.List;
 

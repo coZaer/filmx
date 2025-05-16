@@ -1,15 +1,16 @@
-package com.example.filmx.dao.request;
+package com.example.filmx.dto.response;
 
-import jakarta.persistence.Column;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
-import javax.swing.colorchooser.AbstractColorChooserPanel;
-
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Data
-public class FilmRequest {
+@Builder
+public class FilmResponse {
+    Long id;
+
     String title;
 
     String genre;
@@ -19,4 +20,5 @@ public class FilmRequest {
     int releaseYear;
 
     String description;
+
 }

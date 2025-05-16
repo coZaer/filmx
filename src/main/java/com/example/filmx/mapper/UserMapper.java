@@ -1,8 +1,8 @@
 package com.example.filmx.mapper;
 
-import com.example.filmx.dao.request.UserRequest;
-import com.example.filmx.dao.response.UserResponse;
-import com.example.filmx.entity.UserEntity;
+import com.example.filmx.dto.request.UserRequest;
+import com.example.filmx.dto.response.UserResponse;
+import com.example.filmx.dao.entity.UserEntity;
 
 public enum UserMapper {
     USER_MAPPER;

@@ -1,12 +1,11 @@
 package com.example.filmx.controller;
 
-import com.example.filmx.dao.request.FilmRequest;
-import com.example.filmx.dao.response.FilmResponse;
+import com.example.filmx.dto.request.FilmRequest;
+import com.example.filmx.dto.response.FilmResponse;
 import com.example.filmx.service.FilmService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.KeyStore;
 import java.util.List;
 
 @RestController
